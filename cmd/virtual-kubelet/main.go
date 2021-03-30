@@ -25,14 +25,14 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	cmdproviders "github.com/virtual-kubelet/virtual-kubelet/cmd/virtual-kubelet/commands/providers"
-	"github.com/virtual-kubelet/virtual-kubelet/cmd/virtual-kubelet/commands/root"
-	"github.com/virtual-kubelet/virtual-kubelet/cmd/virtual-kubelet/commands/version"
-	"github.com/virtual-kubelet/virtual-kubelet/log"
-	logruslogger "github.com/virtual-kubelet/virtual-kubelet/log/logrus"
-	"github.com/virtual-kubelet/virtual-kubelet/providers"
-	"github.com/virtual-kubelet/virtual-kubelet/trace"
-	"github.com/virtual-kubelet/virtual-kubelet/trace/opencensus"
+	cmdproviders "github.com/jhstianwei/virtual-kubelet/cmd/virtual-kubelet/commands/providers"
+	"github.com/jhstianwei/virtual-kubelet/cmd/virtual-kubelet/commands/root"
+	"github.com/jhstianwei/virtual-kubelet/cmd/virtual-kubelet/commands/version"
+	"github.com/jhstianwei/virtual-kubelet/log"
+	logruslogger "github.com/jhstianwei/virtual-kubelet/log/logrus"
+	"github.com/jhstianwei/virtual-kubelet/providers"
+	"github.com/jhstianwei/virtual-kubelet/trace"
+	"github.com/jhstianwei/virtual-kubelet/trace/opencensus"
 )
 
 var (

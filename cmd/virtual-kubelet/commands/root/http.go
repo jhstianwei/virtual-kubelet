@@ -24,9 +24,9 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/virtual-kubelet/virtual-kubelet/log"
-	"github.com/virtual-kubelet/virtual-kubelet/node/api"
-	"github.com/virtual-kubelet/virtual-kubelet/providers"
+	"github.com/jhstianwei/virtual-kubelet/log"
+	"github.com/jhstianwei/virtual-kubelet/node/api"
+	"github.com/jhstianwei/virtual-kubelet/providers"
 )
 
 // AcceptedCiphers is the list of accepted TLS ciphers, with known weak ciphers elided

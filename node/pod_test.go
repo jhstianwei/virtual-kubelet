@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	pkgerrors "github.com/pkg/errors"
-	"github.com/virtual-kubelet/virtual-kubelet/errdefs"
-	testutil "github.com/virtual-kubelet/virtual-kubelet/internal/test/util"
+	"github.com/jhstianwei/virtual-kubelet/errdefs"
+	testutil "github.com/jhstianwei/virtual-kubelet/internal/test/util"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	corev1 "k8s.io/api/core/v1"

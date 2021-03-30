@@ -20,8 +20,8 @@ import (
 	"time"
 
 	pkgerrors "github.com/pkg/errors"
-	"github.com/virtual-kubelet/virtual-kubelet/log"
-	"github.com/virtual-kubelet/virtual-kubelet/trace"
+	"github.com/jhstianwei/virtual-kubelet/log"
+	"github.com/jhstianwei/virtual-kubelet/trace"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/util/workqueue"
 )

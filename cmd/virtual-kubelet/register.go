@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/virtual-kubelet/virtual-kubelet/providers"
-	"github.com/virtual-kubelet/virtual-kubelet/providers/mock"
+	"github.com/jhstianwei/virtual-kubelet/providers"
+	"github.com/jhstianwei/virtual-kubelet/providers/mock"
 )
 
 func registerMock(s *providers.Store) {
